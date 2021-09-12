@@ -1,5 +1,4 @@
 <?php
-  session_start();
   $key = $_GET['key'];
   $con = mysqli_connect('localhost','root','');
     if(!$con){
